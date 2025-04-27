@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+}
+
+main {
+    border: solid 1px black;
+    padding: 10px;
+    background-color: rgb(248, 244, 241);
+    max-width: 1200px;
+    margin-left: 10%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.preparacao {
+    background-color:rgb(228, 215, 217);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+td {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Outfit', 'YoungSerif';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    src:url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #333;
+}
+
+h2 {
+    margin-left: 0px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color:maroon
+}
+
+h3 {
+    margin-left: 21px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    color:firebrick;
+}
+
+.valor-cal {
+    color: maroon;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+    main {
+        /*width: 100%;
+        margin-left: 0;*/
+        background-color: grey;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: medium;
+    }
+}
